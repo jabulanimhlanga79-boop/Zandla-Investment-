@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract app project
         run: |
-          unzip -o ZandlaInvestmentApp_v1.zip -d app_project
+          unzip -o ZandlaInvestmentApp_v1_fixed.zip -d app_project
 
       - name: Set up Java
         uses: actions/setup-java@v4
